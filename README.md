@@ -10,8 +10,6 @@ Aplicação web para consulta da previsão do tempo de cidades brasileiras.
 
 # Como utilizar?
 
-Há duas maneiras de preparar o ambiente para utilização da aplicação *ClimaBR*, a saber:
-
 * **Utilizamos a opação de utilização com container (Docker + VSCode) e para funcionar no seu computador também**: Instale o [Docker](https://docs.docker.com/engine/) em seu computador. Depois, instale a extensão [Remote Container](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) no VSCode, ao abrir a pasta do projeto no VSCode, ele irá pedir autorização para executar o container. Autorize-o! 
 
 Execute o comando abaixo para instalar as dependências do projeto:
