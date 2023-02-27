@@ -8,7 +8,7 @@
   <ion-grid>
     <ion-row>
       <ion-col size="12" size-md="6" offset-md="3">
-        <ion-searchbar 
+        <ion-searchbar
           placeholder="Qual a sua cidade?"
           #searchInput
           (ionChange)="onSearch(searchInput.value)"
@@ -33,7 +33,7 @@
   </ion-grid>
 </ion-content>
 
-
+<!-- Histórico de Consultas -->
 <ion-content>
   <ion-grid>
     <ion-row>
@@ -53,7 +53,7 @@
                 <ion-text color="primary">
                   <small>{{ city.state }}</small>
                 </ion-text>
-            
+
               </ion-label>
             </ion-item>
 

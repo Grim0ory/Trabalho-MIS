@@ -6,7 +6,7 @@ Aplicação web para consulta da previsão do tempo de cidades brasileiras.
 
 **Alunos**
 - Pedro Henrique dos Santos Mateus
-- Luiz Eduardo
+- Luiz Eduardo Jacó Andrade
 
 # Como utilizar?
 
@@ -19,3 +19,7 @@ Execute o comando abaixo para instalar as dependências do projeto:
 Para executar a aplicação, digite o comando abaixo no terminal:
 
 `ionic serve`
+
+# O que há de novo?
+## Histórico de pesquisa
+Além de poder realizar consultas a qualquer cidade brasileira, agora, as consultas feitas recentemente ficam armazenadas em cache para que o usuário não tenha que digitar novamente na aba de pesquisa.

@@ -14,7 +14,7 @@ export class HomePage {
   errorMessage = null;
   nenhuma_cidade_pesquisada = null;
   cities: City[] = [];
-  localstorage: City[] = [];
+  localstorage: City[] = []; //array de cidade já pesquisadas
 
   constructor(
     private readonly cityService: SearchCityService,
@@ -36,16 +36,18 @@ export class HomePage {
     await this.router.navigateByUrl(`/weather/${city.id}`, { replaceUrl: true })
   }
 
-  async historic(){
+  //Histórico de Consultas
+  async historic() {
       try{
         this.nenhuma_cidade_pesquisada = null
         this.localstorage = await this.storageService.getCities()
-      } catch(error){
+      } catch(error) {
         this.nenhuma_cidade_pesquisada = error.message
       }
   }
-
-  async deleteHistoric(name: string){
+  
+  //Deleta cidade do histórico de consultas
+  async deleteHistoric(name: string) {
     await this.storageService.remove(name);
     this.historic()
   }
