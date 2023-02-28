@@ -7,6 +7,7 @@ Aplicação web para consulta da previsão do tempo de cidades brasileiras.
 **Alunos**
 - Pedro Henrique dos Santos Mateus
 - Luiz Eduardo Jacó Andrade
+- Iago Manoel Brito de Sá Vaz da Silva
 
 # Como utilizar?
 
